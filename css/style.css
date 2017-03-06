@@ -1,0 +1,183 @@
+/* Resets - Tar bort lite av stylningen webbläsare automatiskt ger hemsidor */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #e4e4e4;
+    border-top: 4px solid #036;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #000;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+/* Container som håller hela sidans innehåll, den gör så att innehållet har en maxbredd och att det ligger centrerat på hemsidan */
+.site-container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* Vi har lagt allt sidans innehåll innanför site-body och vi ger den bakgrunden vit så att den skiljer sig från hela sidans bakgrund som vi definierat i body */
+.site-body {
+    background: #fff;
+}
+
+.section {
+    overflow: auto;
+}
+
+/* Innehållssektion */
+.section-content {
+    padding: 30px 20px;
+}
+
+
+
+
+
+
+
+
+/* Sidhuvud och navigation */
+.header-logo {
+    width: 250px;
+    margin: 10px 0;
+}
+
+.site-navigation {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: #fff;
+    padding: 0 10px;
+}
+
+.site-navigation a {
+    color: #000;
+    font-weight: bold;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.site-navigation a:hover {
+    color: #036;
+}
+
+
+
+/* Bannerbilden */
+.banner {
+    width: 100%;
+    display: block;
+}
+
+
+/* Tre rutor under bannern */
+.column-three {
+    float: left;
+    width: 33.3333333333%;
+    box-sizing: border-box;
+}
+
+.padding-sides {
+    padding: 0 20px;
+}
+
+.bg-blue {
+    background: #62bfad;
+    color: #fff;
+}
+
+.bg-gray {
+    background: #f9f7e8;
+    color: #62bfad;
+}
+
+.bg-red {
+    background: #ff8b8b;
+    color: #f9f8e6;
+}
+
+
+/* Lista med event, nyheter och jobb på startsidan */
+.news-list {
+    list-style: none;
+}
+
+.news-list li a {
+    display: inline-block;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    padding: 15px 20px;
+    color: inherit;
+    text-decoration: none;
+}
+
+.news-list li a:hover {
+    background: rgba(255, 255, 255, .15);
+    font-weight: bold;
+}
+
+.news-list li:last-child {
+    padding-bottom: 0;
+}
+
+.news-list .see-all {
+    font-weight: bold;
+    text-align: center;
+    background: rgba(0, 0, 0, .1);
+}
+
+
+
+/* Sidfoten */
+.site-footer {
+    overflow: auto;
+    background: #222;
+    color: #fff;
+}
+
+.site-footer-box {
+    padding: 20px;
+}
+
+.site-footer a {
+    color: #fff;
+}
+
+.site-footer ul {
+    list-style: none;
+}
+
+.site-footer ul li {
+    margin-bottom: 10px;
+}
+
+.site-footer ul li:last-child {
+    margin-bottom: 0;
+}
+
+.footer-logo {
+    width: 200px;
+    margin: 0 auto;
+}

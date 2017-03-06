@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+
+    <!-- Head innehåller hemsidans metadata, så som vilken stilmall den ska använda och dess rubrik -->
+    <head>
+        <meta charset="utf-8">
+
+        <!-- Importerar fonten roboto från google webfonts så vi kan använda den i projektet -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+        <!-- Kopplar stilmallen till hemsidan -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Kopplar javascriptet till hemsidan -->
+        <script src="js/main.js"></script>
+
+        <!-- Hemsidans titel - Den som syns i fliken högst upp i webbläsaren när man besöker hemsidan -->
+        <title>Systemvetenskap.nu</title>
+    </head>
+
+    <!-- Allt innehåll som visas på hemsidan ligger innanför body -->
+    <body>
+        <!-- Container som håller alla sidans element, det är denna som gör att sidan har en viss bredd och ligger i mitten av skärmen -->
+        <div class="site-container">
+
+            <!-- Innanför header taggen ligger alla element som rör sidhuvudet -->
+            <header>
+
+                <!-- Loggan som visas högst upp på sidan -->
+                <div class="site-header-top">
+                    <img src="img/systemvetare-logo-blue.png" alt="Systemvetenskap.nu" class="header-logo">
+                </div>
+
+                <!-- Sidans navigation -->
+                <nav class="site-navigation">
+                    <a href="#">Hem</a>
+                    <a href="#">Ny student?</a>
+                    <a href="#">Om föreningen</a>
+                    <a href="#">Engagera dig</a>
+                    <a href="#">Kontakta oss</a>
+                </nav>
+
+            </header>
+
+            <!-- Innanför main taggen ligger hela sidans innehåll som inte är sidhuvudet elelr sidfoten  -->
+            <main class="site-body">
+                <section class="section">
+
+                    <!-- Banner som ligger bland innehållet på sidan -->
+                    <img src="img/systemvetare-banner.jpg" alt="Uppsala Systemvetare" class="banner">
+
+                    <!-- Den första av de tre rutorna -->
+                    <div class="column-three bg-red">
+                        <h2 class="padding-sides">
+                            Kommande event
+                        </h2>
+                        <ul class="news-list">
+                            <li>
+                                <a href="#">
+                                    <b>8/3</b> - Systemvetardagen
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <b>6/3</b> - Progpub
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <b>21/1</b> - Åre 2017
+                                </a>
+                            </li>
+                            <li class="see-all">
+                                <a href="#">Se alla event</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Den andra av de tre rutorna -->
+                    <div class="column-three bg-gray">
+                        <h2 class="padding-sides">
+                            Nyheter
+                        </h2>
+                        <ul class="news-list">
+                            <li>
+                                <a href="#">
+                                    Affecto blir ny samarbetspartner!
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Vi välkomnar nya styrelsen!
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Information inför systemvetardagen
+                                </a>
+                            </li>
+                            <li class="see-all">
+                                <a href="#">Se alla nyheter</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Den tredje av de tre rutorna -->
+                    <div class="column-three bg-blue">
+                        <h2 class="padding-sides">
+                            Karriär
+                        </h2>
+                        <ul class="news-list">
+                            <li>
+                                <a href="#">
+                                    Accigo söker Systemvetare
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Uppsala kommun söker DBA
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    PWC Söker webbutvecklare
+                                </a>
+                            </li>
+                            <li class="see-all">
+                                <a href="#">Se alla jobb</a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Sektionen som håller startsidans textinnehåll -->
+                <section class="section section-content">
+                    <h1>Uppsala Systemvetare</h1>
+
+                    <h3>
+                        Välkommen till vår hemsida!
+                    </h3>
+
+                    <p>
+                        Vi är föreningen <strong>Uppsala Systemvetare</strong> och representerar och anordnar aktiviteter
+                        för de studenter som studerar systemvetenskap på <b>Uppsala Universitet</b>.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione dolor atque non, ipsam praesentium recusandae. Alias harum repudiandae laborum necessitatibus natus ad, sit, sunt facilis minima ex delectus nemo ea?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione dolor atque non, ipsam praesentium recusandae. Alias harum repudiandae laborum necessitatibus natus ad, sit, sunt facilis minima ex delectus nemo ea?
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione dolor atque non, ipsam praesentium recusandae. Alias harum repudiandae laborum necessitatibus natus ad, sit, sunt facilis minima ex delectus nemo ea?
+                    </p>
+
+                    <!-- En länk som innehåller både en I tagg och en B tagg. I taggen gör innehållet kursivt och B taggen gör innehållet boldat -->
+                    <a href="#"><i><b>Läs mer</b></i></a>
+
+                </section>
+            </main>
+
+            <!-- Sidfoten längst ner pä sidan -->
+            <footer class="site-footer">
+
+                <!-- Här återanvänder vi classnen för de tre rutorna som vi redan använt högre upp på sidan -->
+                <div class="column-three site-footer-box">
+                    <img src="img/systemvetare-logo-round.png" alt="Systemvetenskap.nu" class="footer-logo">
+                </div>
+
+                <div class="column-three">
+                    <h2>Navigation</h2>
+                    <ul>
+                        <li>
+                            <a href="#">Hem</a>
+                        </li>
+                        <li>
+                            <a href="#">Ny student?</a>
+                        </li>
+                        <li>
+                            <a href="#">Om föreningen</a>
+                        </li>
+                        <li>
+                            <a href="#">Engagera dig</a>
+                        </li>
+                        <li>
+                            <a href="#">Kontakta oss</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="column-three">
+                    <h2>Kontakta oss</h2>
+
+                    <ul>
+                        <li>
+                            <b>Telefonnummer:</b><br>
+                            <a href="tel:07000000">07000000</a>
+                        </li>
+                        <li>
+                            <b>E-post:</b><br>
+                            <a href="mailto:joolgustafsson@gmail.com">joolgustafsson@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
+
+        </div>
+
+    <!-- Alla html dokument avslutas alltid med att man stänger body taggen och html taggen som öppnat högre upp i dokumentet -->
+    </body>
+</html>
